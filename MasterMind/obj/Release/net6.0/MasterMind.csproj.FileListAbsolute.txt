@@ -1,0 +1,12 @@
+C:\data\dev\MasterMind\MasterMind\obj\Release\net6.0\MasterMind.csproj.AssemblyReference.cache
+C:\data\dev\MasterMind\MasterMind\obj\Release\net6.0\MasterMind.GeneratedMSBuildEditorConfig.editorconfig
+C:\data\dev\MasterMind\MasterMind\obj\Release\net6.0\MasterMind.AssemblyInfoInputs.cache
+C:\data\dev\MasterMind\MasterMind\obj\Release\net6.0\MasterMind.AssemblyInfo.cs
+C:\data\dev\MasterMind\MasterMind\obj\Release\net6.0\MasterMind.csproj.CoreCompileInputs.cache
+C:\data\dev\MasterMind\MasterMind\bin\Release\net6.0\MasterMind.deps.json
+C:\data\dev\MasterMind\MasterMind\bin\Release\net6.0\MasterMind.dll
+C:\data\dev\MasterMind\MasterMind\bin\Release\net6.0\MasterMind.pdb
+C:\data\dev\MasterMind\MasterMind\obj\Release\net6.0\MasterMind.dll
+C:\data\dev\MasterMind\MasterMind\obj\Release\net6.0\refint\MasterMind.dll
+C:\data\dev\MasterMind\MasterMind\obj\Release\net6.0\MasterMind.pdb
+C:\data\dev\MasterMind\MasterMind\obj\Release\net6.0\ref\MasterMind.dll

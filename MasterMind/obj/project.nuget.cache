@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "DKlloIj64XvTsRmDHcjHDqhXs3FddgTJgh47TMrtwpEV25wIQ3OuOoShZkIlYusBMEv/I9/Lf+mkVN0/9kc5RA==",
+  "success": true,
+  "projectFilePath": "C:\\data\\dev\\MasterMind\\MasterMind\\MasterMind.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\filippogentile\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\filippogentile\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\filippogentile\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

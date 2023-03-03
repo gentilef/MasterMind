@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>MasterMindBenchmark-20230303-100006</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.13.5, OS=Windows 11 (10.0.22621.1265/22H2/2022Update/SunValley2)
+11th Gen Intel Core i7-1165G7 2.80GHz, 1 CPU, 8 logical and 4 physical cores
+.NET SDK=8.0.100-preview.1.23115.2
+  [Host]     : .NET 8.0.0 (8.0.23.11008), X64 RyuJIT AVX2
+  Job-HRPYRA : .NET 8.0.0 (8.0.23.11008), X64 RyuJIT AVX2
+</code></pre>
+<pre><code>InvocationCount=1  UnrollFactor=1  
+</code></pre>
+
+<table>
+<thead><tr><th>                 Method</th><th>SequenceLenght</th><th>   Mean</th><th>Error</th><th> StdDev</th><th> Median</th><th>Ratio</th><th>RatioSD</th><th>Allocated</th><th>Alloc Ratio</th>
+</tr>
+</thead><tbody><tr><td>SolutionWithDictionaryBenchy</td><td>10</td><td>13.312 &mu;s</td><td>1.5506 &mu;s</td><td>4.4240 &mu;s</td><td>13.450 &mu;s</td><td>1.00</td><td>0.00</td><td>-</td><td>NA</td>
+</tr><tr><td>SolutionWithDynamicListBenchy</td><td>10</td><td>2.568 &mu;s</td><td>0.2700 &mu;s</td><td>0.7705 &mu;s</td><td>2.400 &mu;s</td><td>0.21</td><td>0.09</td><td>-</td><td>NA</td>
+</tr><tr><td>SolutionWithFixedListBenchy</td><td>10</td><td>3.014 &mu;s</td><td>0.3300 &mu;s</td><td>0.9627 &mu;s</td><td>2.750 &mu;s</td><td>0.25</td><td>0.13</td><td>-</td><td>NA</td>
+</tr><tr><td>SolutionWithDictionaryBenchy</td><td>100</td><td>49.029 &mu;s</td><td>3.5245 &mu;s</td><td>10.2252 &mu;s</td><td>49.050 &mu;s</td><td>1.00</td><td>0.00</td><td>28808 B</td><td>1.00</td>
+</tr><tr><td>SolutionWithDynamicListBenchy</td><td>100</td><td>66.559 &mu;s</td><td>2.0963 &mu;s</td><td>5.9468 &mu;s</td><td>65.800 &mu;s</td><td>1.43</td><td>0.35</td><td>-</td><td>0.00</td>
+</tr><tr><td>SolutionWithFixedListBenchy</td><td>100</td><td>22.276 &mu;s</td><td>0.8856 &mu;s</td><td>2.4978 &mu;s</td><td>21.750 &mu;s</td><td>0.48</td><td>0.14</td><td>-</td><td>0.00</td>
+</tr><tr><td>SolutionWithDictionaryBenchy</td><td>1000</td><td>229.326 &mu;s</td><td>9.2320 &mu;s</td><td>25.5819 &mu;s</td><td>222.400 &mu;s</td><td>1.00</td><td>0.00</td><td>202136 B</td><td>1.00</td>
+</tr><tr><td>SolutionWithDynamicListBenchy</td><td>1000</td><td>19,208.128 &mu;s</td><td>390.3923 &mu;s</td><td>1,144.9531 &mu;s</td><td>19,115.800 &mu;s</td><td>85.26</td><td>9.71</td><td>8824 B</td><td>0.04</td>
+</tr><tr><td>SolutionWithFixedListBenchy</td><td>1000</td><td>607.701 &mu;s</td><td>19.1813 &mu;s</td><td>54.4140 &mu;s</td><td>598.100 &mu;s</td><td>2.67</td><td>0.34</td><td>-</td><td>0.00</td>
+</tr></tbody></table>
+</body>
+</html>

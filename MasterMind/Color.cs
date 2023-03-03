@@ -1,0 +1,35 @@
+﻿namespace MasterMind
+{
+    public enum Color
+    {
+        Red,
+        Green,
+        Blue,
+        Pink,
+        Yellow,
+        Violette,
+        Black,
+        White,
+        Magenta,
+        Orange,
+        Mint,
+        Yet,
+        Another,
+        Color,
+        Let,
+        Us,
+        See,
+        If,
+        It,
+        Does,
+        Play,
+        A,
+        Difference,
+        Tomorrow,
+        We,
+        Can,
+        Discuss,
+        Together,
+        Resul
+    }
+}
